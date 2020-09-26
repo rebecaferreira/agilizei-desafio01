@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-26T22:04:06.175Z",
-    "end": "2020-09-26T22:04:20.179Z",
-    "duration": 14004,
+    "start": "2020-09-26T22:21:50.797Z",
+    "end": "2020-09-26T22:22:03.917Z",
+    "duration": 13120,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d19f5cb4-4162-4e05-8a80-78dba0ac35ee",
+      "uuid": "24a8e470-b630-44ab-a1af-b1fceeaf3f8d",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "fbc35a56-7e21-4ba7-8a05-9434830ed980",
+          "uuid": "1cc93a46-1684-40e5-ad79-9a7ba6dad903",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Cadastro de um novo usuário",
               "fullTitle": "Cadastro Cadastro de um novo usuário",
               "timedOut": null,
-              "duration": 13931,
+              "duration": 13094,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://automationpractice.com');\ncy.get('.login').click();\ncy.get('#email_create').type(chance.email());\ncy.get('#SubmitCreate > span').click();\ncy.get('#id_gender2').check();\ncy.get('#customer_firstname').type('Rebeca');\ncy.get('#customer_lastname').type('Ferreira');\ncy.get('#passwd').type('Alo@123456');\ncy.get('#days').select('24');\ncy.get('#months').select('November');\ncy.get('#years').select('1997');\ncy.get('#company').type('Venturus');\ncy.get('#address1').type('Times Square');\ncy.get('#city').type('New York');\ncy.get('#id_state').select('New York', {\n  force: true\n});\ncy.get('#postcode').type('10036');\ncy.get('#phone').type('646-223-4000');\ncy.get('#alias').type(chance.email());\ncy.get('#submitAccount > span').click();\ncy.get('.info-account').should('contain', 'Welcome to your account');",
               "err": {},
-              "uuid": "f8b6b698-b8aa-4e0d-aa75-4396faefcffc",
-              "parentUUID": "fbc35a56-7e21-4ba7-8a05-9434830ed980",
+              "uuid": "747fa405-672b-4069-ac2f-32ac3b4d4ca8",
+              "parentUUID": "1cc93a46-1684-40e5-ad79-9a7ba6dad903",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f8b6b698-b8aa-4e0d-aa75-4396faefcffc"
+            "747fa405-672b-4069-ac2f-32ac3b4d4ca8"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 13931,
+          "duration": 13094,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
