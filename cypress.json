@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://automationpractice.com",
+    "watchForFileChanges": false,
+    "testFiles": "**/*.*spec.*",
+    "experimentalSourceRewriting": true,
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+      
+}
