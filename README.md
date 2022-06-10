@@ -1,7 +1,7 @@
-## Agilizei Bootcamp - Desafio 01
-Automação de testes com Cypress, utilizando o site automation practice.
+## Agilizei Bootcamp - Challenge 01
+Automating tests with Cypress on a website called automation practice.
 
-### Ferramentas:
+### Tools:
 - Cypress
 - Report generator (Mochawesome)
 - Github Actions/Pages
